@@ -1,0 +1,437 @@
+.navbar {
+    background-color: #6f6f6f;
+    height: 50px;
+    padding-left: 130px;
+}
+
+.nav button {
+    margin-left: 10pc;
+    position: absolute;
+    width: 140px;
+    background: #F6A828;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    height: 33px;
+    top: -6px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.nav button:hover {
+    background-color: #FF860D;
+}
+
+.nav .logo {
+    display: inline-flex;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.nav .logo img {
+    padding-top: 5px;
+    position: relative;
+    top: -24px;
+}
+
+.nav ul {
+    position: absolute;
+    margin: -8px;
+    margin-left: 170px;
+    line-height: 3;
+    list-style: none;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 auto;
+    line-height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    margin-left: 50px;
+}
+
+.nav ul li:hover {
+    cursor: pointer;
+    color: orange;
+    transition: all .2s;
+}
+
+.addAdvertisement {
+    position: relative;
+    margin-top: 7px;
+    display: inline-block;
+    top: -1pc;
+}
+
+
+/*
+Add Advertisement Section
+*/
+
+form input {
+    margin-left: 66px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    height: 30px;
+}
+
+.navAdvertisement {
+    width: 70%;
+    height: 50px;
+    margin-left: 60px;
+    display: inline-block;
+    background-color: #9DC45F;
+    color: white;
+    margin-top: 30px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.navAdvertisement h5 {
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+.navAdvertisement h5 a {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+    color: white;
+    text-decoration-line: unset;
+    background-color: #9dc45f;
+}
+
+.navAdvertisement h5 a:hover {
+    background-color: #FF860D;
+}
+
+.navAdvertisement span {
+    float: right;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+
+/*
+Section main mainAdvertisement
+*/
+
+.mainAdvertisement {
+    width: 70%;
+    height: 320px;
+    background-color: #F0F0F0;
+    margin-left: 60px;
+    display: inline-block;
+}
+
+.note {
+    padding-top: 20px;
+}
+
+.note h6 {
+    display: inline-block;
+    padding-left: 5px;
+    font-size: small;
+    color: #515151;
+}
+
+.note span {
+    color: red;
+    padding-left: 35px;
+    font-weight: bold;
+}
+
+.note a {
+    background-color: #9dc45f;
+    padding: 3px 15px 3px 15px;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: unset;
+}
+
+.note a:hover {
+    background-color: #FF860D;
+}
+
+.labelarea {
+    width: 100%;
+    height: 250px;
+    display: grid;
+    text-align: left;
+}
+
+.labelarea star {
+    color: red;
+}
+
+.labelarea span {
+    width: 20%;
+    font-weight: bold;
+    color: #515151;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 13px;
+    padding-left: 125px;
+}
+
+.labelarea select {
+    width: 200px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#AdvertisementType {
+    margin-left: 25px;
+}
+
+#PropertyType {
+    margin-left: 8px;
+}
+
+#City {
+    margin-left: 62px;
+}
+
+#AddressArea {
+    margin-left: 232px;
+    margin-top: -30px;
+}
+
+textarea {
+    resize: none;
+    width: 400px;
+    border-radius: 5px;
+    height: 111px;
+}
+
+
+/* 
+           AboutAdvertisement
+*/
+
+.aboutAdvertisement {
+    width: 70%;
+    height: 200px;
+    background-color: #F0F0F0;
+    margin-left: 60px;
+}
+
+form h2 {
+    font: 14px Arial, Helvetica, sans-serif;
+    padding: 5px 0px 5px 20px;
+    width: 100%;
+    display: block;
+    color: #FFF;
+    background: #9DC45F;
+    text-shadow: 1px 1px 1px #949494;
+    border-bottom: 1px solid #89AF4C;
+}
+
+form .miniput {
+    width: 110px;
+    cursor: pointer;
+    margin-left: 50px;
+    height: 25px;
+    height: 30px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.areaabout {
+    height: 170px;
+}
+
+
+/* Contact Advertisement*/
+
+.contactAdvertisement {
+    width: 70%;
+    height: 470px;
+    background-color: #F0F0F0;
+    margin-left: 60px;
+}
+
+.linerow {
+    width: 420px;
+    height: 26px;
+    display: inline-block;
+    margin-bottom: 170px;
+}
+
+.linenumb {
+    width: 400px;
+}
+
+.linenumbnext {
+    width: 150px;
+    margin-left: 60px;
+    height: 91px;
+    padding-top: 20px;
+}
+
+.contactmail {
+    padding-left: 11px;
+    padding-top: 21px;
+    margin-left: 0px;
+}
+
+.noteContact {
+    margin-top: 21px;
+}
+
+
+/* Images upload Container*/
+
+.imgContainer {
+    width: 70%;
+    height: 420px;
+    background-color: #F0F0F0;
+    margin-left: 60px;
+}
+
+.imgContainer p {
+    display: inline-block;
+    padding-left: 27px;
+    font-size: small;
+    color: #515151;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+
+.uploadimg {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    background: #9DC45F;
+    border: #ebebeb solid 1px;
+    width: 130px;
+    margin-left: 104px;
+    font: normal 14px Myriad Pro, Verdana, Geneva, sans-serif;
+    color: #7f7f7f;
+    height: 40px;
+    margin-top: 2px;
+}
+
+.uploadimg:hover {
+    background-color: #80A24A;
+}
+
+.uploadimg h6 {
+    padding-top: 10px;
+    padding-left: 20px;
+    font: 14px Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.uploadimg input[type="file"] {
+    -webkit-appearance: none;
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 85px;
+    left: 0;
+    opacity: 0;
+}
+
+#btn-send {
+    position: absolute;
+    margin-top: 150px;
+    color: white;
+    cursor: pointer;
+    width: 120px;
+    background: #9DC45F;
+}
+
+#btn-send:hover {
+    background-color: #80A24A;
+}
+
+.clear-fixed {
+    clear: both;
+}
+
+
+/*Banner style css*/
+
+.banner {
+    float: right;
+    margin-right: 178px;
+    position: relative;
+    cursor: pointer;
+    display: inline-grid;
+    bottom: 1473px;
+}
+
+.banner img {
+    width: 170px;
+    margin-top: 10px;
+}
+
+.tags {
+    display: inline-block;
+    width: 58%;
+    margin-top: 54px;
+    height: 250px;
+    margin-left: 180px;
+}
+
+.key {
+    color: #3E3E3E;
+    text-decoration: none !important;
+    border-radius: 3px;
+    border: 1px solid #C1C1C1;
+    line-height: 20px;
+    padding: 0px 4px;
+    display: inline-block;
+    margin: 3px 2px;
+}
+
+.key:hover {
+    background-color: #FFDCAA;
+}
+
+.Vipbottom {
+    margin-left: 184px;
+    width: 117px;
+    border-left: 5px solid #84ae3e;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.clear-fixed {
+    clear: both;
+}
+
+.footerBottom {
+    width: 100%;
+    height: 150px;
+    background-color: dimgray;
+    text-align: center;
+}
+
+.footerBottom .bannerBottom {
+    display: inline-block;
+    position: relative;
+    top: 45px;
+    right: 238px;
+}
+
+.footerBottom .bottomText {
+    width: 400px;
+    height: 90px;
+    margin-top: 38px;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}

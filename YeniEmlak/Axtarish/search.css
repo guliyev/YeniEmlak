@@ -1,0 +1,431 @@
+.navbar {
+    background-color: #6f6f6f;
+    height: 50px;
+    padding-left: 130px;
+}
+
+.nav button {
+    margin-left: 10pc;
+    position: absolute;
+    width: 140px;
+    background: #F6A828;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    height: 33px;
+    top: -6px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.nav button:hover {
+    background-color: #FF860D;
+}
+
+.nav .logo {
+    display: inline-flex;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.nav .logo img {
+    padding-top: 5px;
+    position: relative;
+    top: -24px;
+}
+
+.nav ul {
+    position: absolute;
+    margin: -8px;
+    margin-left: 170px;
+    line-height: 3;
+    list-style: none;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 auto;
+    line-height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    margin-left: 50px;
+}
+
+.nav ul li:hover {
+    cursor: pointer;
+    color: orange;
+    transition: all .2s;
+}
+
+.addAdvertisement {
+    position: relative;
+    margin-top: 7px;
+    display: inline-block;
+    top: -1pc;
+}
+
+.banner {
+    float: right;
+    margin-right: 77px;
+    cursor: pointer;
+    display: inline-grid;
+}
+
+.banner img {
+    width: 170px;
+    margin-top: 10px;
+}
+
+
+/*Detailst search container*/
+
+.navbar {
+    background-color: #6f6f6f;
+    height: 50px;
+    padding-left: 130px;
+}
+
+.nav button {
+    margin-left: 10pc;
+    position: absolute;
+    width: 140px;
+    background: #F6A828;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    height: 33px;
+    top: -6px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.nav button:hover {
+    background-color: #FF860D;
+}
+
+.nav .logo {
+    display: inline-flex;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.nav .logo img {
+    padding-top: 5px;
+    position: relative;
+    top: -24px;
+}
+
+.nav ul {
+    position: absolute;
+    margin: -8px;
+    margin-left: 170px;
+    line-height: 3;
+    list-style: none;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 auto;
+    line-height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    margin-left: 50px;
+}
+
+.nav ul li:hover {
+    cursor: pointer;
+    color: orange;
+    transition: all .2s;
+}
+
+.addAdvertisement {
+    position: relative;
+    margin-top: 7px;
+    display: inline-block;
+    top: -1pc;
+}
+
+
+/*
+Add Advertisement Section
+*/
+
+form input {
+    margin-left: 66px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    height: 30px;
+}
+
+.navAdvertisement {
+    width: 70%;
+    height: 50px;
+    margin-left: 60px;
+    display: inline-block;
+    background-color: #9DC45F;
+    color: white;
+    margin-top: 30px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.navAdvertisement h5 {
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+.navAdvertisement h5 a {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+    color: white;
+    text-decoration-line: unset;
+    background-color: #9dc45f;
+}
+
+.navAdvertisement h5 a:hover {
+    background-color: #FF860D;
+}
+
+.navAdvertisement span {
+    float: right;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+
+/*
+Section main mainAdvertisement
+*/
+
+.mainAdvertisement {
+    width: 70%;
+    height: 160px;
+    background-color: #F0F0F0;
+    margin-left: 60px;
+    display: inline-block;
+}
+
+.note {
+    padding-top: 20px;
+}
+
+.note h6 {
+    display: inline-block;
+    padding-left: 5px;
+    font-size: small;
+    color: #515151;
+}
+
+.note span {
+    color: red;
+    padding-left: 35px;
+    font-weight: bold;
+}
+
+.note a {
+    background-color: #9dc45f;
+    padding: 3px 15px 3px 15px;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: unset;
+}
+
+.note a:hover {
+    background-color: #FF860D;
+}
+
+.labelarea {
+    width: 100%;
+    height: 0px;
+    margin-top: 20px;
+    display: grid;
+    text-align: left;
+}
+
+.labelarea star {
+    color: red;
+}
+
+.labelarea span {
+    width: 20%;
+    font-weight: bold;
+    color: #515151;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 13px;
+    padding-left: 125px;
+}
+
+.labelarea select {
+    width: 200px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#AdvertisementType {
+    margin-left: 25px;
+}
+
+#PropertyType {
+    margin-left: 8px;
+}
+
+#City {
+    margin-left: 57px;
+}
+
+form h2 {
+    font: 14px Arial, Helvetica, sans-serif;
+    padding: 5px 0px 5px 20px;
+    width: 100%;
+    display: block;
+    color: #FFF;
+    background: #9DC45F;
+    text-shadow: 1px 1px 1px #949494;
+    border-bottom: 1px solid #89AF4C;
+}
+
+.about-info {
+    width: 70%;
+    height: 180px;
+    margin-left: 60px;
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: white;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.linenumb {
+    width: 400px;
+    display: inline;
+    padding-left: 133px;
+}
+
+.linenumb span {
+    width: 20%;
+    font-weight: bold;
+    color: #515151;
+    font-size: 14px;
+}
+
+.linenumbnext {
+    width: 150px;
+    margin-left: 60px;
+    height: 91px;
+    padding-top: 20px;
+}
+
+form .miniput {
+    width: 110px;
+    cursor: pointer;
+    margin-left: 50px;
+    height: 25px;
+    height: 30px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.radiobtn {
+    display: inline;
+    padding-left: 133px;
+    width: 20%;
+    font-weight: bold;
+    color: #515151;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    /* change "blue" browser chrome to yellow */
+    filter: blue, invert(100%) hue-rotate(18deg) brightness(1.7);
+}
+
+#btn-send {
+    margin-left: 165px;
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    height: 30px;
+    margin-top: 62px;
+    width: 125px;
+    background: #9DC45F;
+}
+
+#btn-send:hover {
+    background-color: #80A24A;
+}
+
+
+/*Tag fotter */
+
+.tags {
+    display: inline-block;
+    width: 58%;
+    margin-top: 54px;
+    height: 250px;
+    margin-left: 180px;
+}
+
+.key {
+    color: #3E3E3E;
+    text-decoration: none !important;
+    border-radius: 3px;
+    border: 1px solid #C1C1C1;
+    line-height: 20px;
+    padding: 0px 4px;
+    display: inline-block;
+    margin: 3px 2px;
+}
+
+.key:hover {
+    background-color: #FFDCAA;
+}
+
+.Vipbottom {
+    margin-left: 184px;
+    width: 117px;
+    border-left: 5px solid #84ae3e;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.clear-fixed {
+    clear: both;
+}
+
+.footerBottom {
+    width: 100%;
+    height: 150px;
+    background-color: dimgray;
+    text-align: center;
+}
+
+.footerBottom .bannerBottom {
+    display: inline-block;
+    position: relative;
+    top: 45px;
+    right: 238px;
+}
+
+.footerBottom .bottomText {
+    width: 400px;
+    height: 90px;
+    margin-top: 38px;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}

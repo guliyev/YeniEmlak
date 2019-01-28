@@ -1,0 +1,248 @@
+.navbar {
+    background-color: #6f6f6f;
+    height: 50px;
+    padding-left: 130px;
+}
+
+.nav button {
+    margin-left: 10pc;
+    position: absolute;
+    width: 140px;
+    background: #F6A828;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    height: 33px;
+    top: -6px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.nav button:hover {
+    background-color: #FF860D;
+}
+
+.nav .logo {
+    display: inline-flex;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.nav .logo img {
+    padding-top: 5px;
+    position: relative;
+    top: -24px;
+}
+
+.nav ul {
+    position: absolute;
+    margin: -8px;
+    margin-left: 170px;
+    line-height: 3;
+    list-style: none;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 auto;
+    line-height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    margin-left: 50px;
+}
+
+.nav ul li:hover {
+    cursor: pointer;
+    color: orange;
+    transition: all .2s;
+}
+
+.addAdvertisement {
+    position: relative;
+    margin-top: 7px;
+    display: inline-block;
+    top: -1pc;
+}
+
+.banner {
+    float: right;
+    margin-right: 77px;
+    cursor: pointer;
+    display: inline-grid;
+}
+
+.banner img {
+    width: 170px;
+    margin-top: 10px;
+}
+
+
+/*Detailst search container*/
+
+.navbar {
+    background-color: #6f6f6f;
+    height: 50px;
+    padding-left: 130px;
+}
+
+.nav button {
+    margin-left: 10pc;
+    position: absolute;
+    width: 140px;
+    background: #F6A828;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    height: 33px;
+    top: -6px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.nav button:hover {
+    background-color: #FF860D;
+}
+
+.nav .logo {
+    display: inline-flex;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.nav .logo img {
+    padding-top: 5px;
+    position: relative;
+    top: -24px;
+}
+
+.nav ul {
+    position: absolute;
+    margin: -8px;
+    margin-left: 170px;
+    line-height: 3;
+    list-style: none;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 auto;
+    line-height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    margin-left: 50px;
+}
+
+.nav ul li:hover {
+    cursor: pointer;
+    color: orange;
+    transition: all .2s;
+}
+
+.addAdvertisement {
+    position: relative;
+    margin-top: 7px;
+    display: inline-block;
+    top: -1pc;
+}
+
+
+/*Rieltor Main*/
+
+.rowRieltor {
+    margin-top: 50px;
+}
+
+.rowRieltor span {
+    padding-left: 0px;
+    line-height: 18px;
+    font-family: Tahoma;
+    text-shadow: 0px 1px 1px #DEDEDE;
+    font-size: 12px;
+}
+
+.textrieltor {
+    width: 700px;
+    margin-left: 179px;
+    height: 128px;
+    position: absolute;
+    border-radius: 0px 10px 10px 0px;
+    display: inline-block;
+    background-color: #F5F5F5;
+    box-shadow: 2px 2px #888888;
+    margin-top: 1px;
+}
+
+.firstRow {
+    position: absolute;
+    width: 100%;
+    border-radius: 0px 10px 0px 0px;
+    font-weight: 600;
+    background-color: #E6E6E6;
+    border-bottom: 1px solid #C7C7C7;
+    height: 25px;
+}
+
+.imga img {
+    width: 179px;
+    padding-top: 1px;
+    height: 129px;
+    position: absolute;
+    box-shadow: 2px 2px #888888;
+    display: inline-block;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.reallist {
+    width: 780px;
+    border-radius: 5px;
+    position: absolute;
+    color: #424242;
+    background-color: #F5F5F5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    -webkit-box-shadow: 1px 1px 5px #A2A2A2;
+    -moz-box-shadow: 1px 1px 5px #A2A2A2;
+    box-shadow: 1px 1px 5px #A2A2A2;
+    font-size: 12px;
+}
+
+.navtext {
+    font-weight: 600;
+    padding-left: 10px;
+    background-color: #E6E6E6;
+    border-bottom: 1px solid #C7C7C7;
+    height: 25px;
+}
+
+.detail {
+    float: right;
+    color: #84AE3E;
+    margin: 0px;
+    background-color: #F5F5F5;
+    border-radius: 5px 0px 5px 0px;
+    border: 1px solid #DBDBDB;
+    border-width: 1px 0px 0px 1px;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.textstyle {
+    padding: 2px 0px 0px 10px;
+    line-height: 18px;
+    font-family: Tahoma;
+    text-shadow: 0px 1px 1px #DEDEDE;
+}
+
+.caption {
+    width: 50px;
+    font-weight: 600;
+    display: inline-block;
+}
